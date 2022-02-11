@@ -1,0 +1,582 @@
+2022-02-10 08:42:48,521 INFO    MainThread:27055 [internal.py:wandb_internal():92] W&B internal server running at pid: 27055, started at: 2022-02-10 08:42:48.520809
+2022-02-10 08:42:48,522 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: check_version
+2022-02-10 08:42:48,523 INFO    WriterThread:27055 [datastore.py:open_for_write():77] open: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/run-2u1i4w6y.wandb
+2022-02-10 08:42:48,524 DEBUG   SenderThread:27055 [sender.py:send():235] send: header
+2022-02-10 08:42:48,524 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: check_version
+2022-02-10 08:42:48,669 DEBUG   SenderThread:27055 [sender.py:send():235] send: run
+2022-02-10 08:42:48,937 INFO    SenderThread:27055 [dir_watcher.py:__init__():169] watching files in: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files
+2022-02-10 08:42:48,937 INFO    SenderThread:27055 [sender.py:_start_run_threads():812] run started: 2u1i4w6y with start time 1644482567
+2022-02-10 08:42:48,937 DEBUG   SenderThread:27055 [sender.py:send():235] send: summary
+2022-02-10 08:42:48,937 INFO    SenderThread:27055 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 08:42:48,938 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: run_start
+2022-02-10 08:42:49,938 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_created():217] file/dir created: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/wandb-summary.json
+2022-02-10 08:42:50,154 DEBUG   HandlerThread:27055 [meta.py:__init__():36] meta init
+2022-02-10 08:42:50,154 DEBUG   HandlerThread:27055 [meta.py:__init__():50] meta init done
+2022-02-10 08:42:50,154 DEBUG   HandlerThread:27055 [meta.py:probe():210] probe
+2022-02-10 08:42:50,161 DEBUG   HandlerThread:27055 [meta.py:_setup_git():200] setup git
+2022-02-10 08:42:50,171 DEBUG   HandlerThread:27055 [meta.py:_setup_git():207] setup git done
+2022-02-10 08:42:50,171 DEBUG   HandlerThread:27055 [meta.py:_save_pip():54] save pip
+2022-02-10 08:42:50,172 DEBUG   HandlerThread:27055 [meta.py:_save_pip():68] save pip done
+2022-02-10 08:42:50,172 DEBUG   HandlerThread:27055 [meta.py:_save_conda():75] save conda
+2022-02-10 08:42:50,942 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_created():217] file/dir created: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/requirements.txt
+2022-02-10 08:42:50,942 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_created():217] file/dir created: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/conda-environment.yaml
+2022-02-10 08:42:54,943 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_created():217] file/dir created: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:43:00,645 DEBUG   HandlerThread:27055 [meta.py:_save_conda():85] save conda done
+2022-02-10 08:43:00,645 DEBUG   HandlerThread:27055 [meta.py:probe():248] probe done
+2022-02-10 08:43:00,647 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 08:43:00,647 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: get_summary
+2022-02-10 08:43:00,648 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 08:43:00,925 DEBUG   SenderThread:27055 [sender.py:send():235] send: files
+2022-02-10 08:43:00,925 INFO    SenderThread:27055 [sender.py:_save_file():944] saving file model-best.h5 with policy live
+2022-02-10 08:43:00,925 DEBUG   SenderThread:27055 [sender.py:send():235] send: files
+2022-02-10 08:43:00,925 INFO    SenderThread:27055 [sender.py:_save_file():944] saving file wandb-metadata.json with policy now
+2022-02-10 08:43:00,944 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_created():217] file/dir created: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/wandb-metadata.json
+2022-02-10 08:43:01,628 INFO    Thread-11 :27055 [upload_job.py:push():137] Uploaded file /tmp/tmpoz0lmsbuwandb/23oij1pa-wandb-metadata.json
+2022-02-10 08:43:02,945 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:43:10,112 DEBUG   SenderThread:27055 [sender.py:send():235] send: files
+2022-02-10 08:43:10,112 INFO    SenderThread:27055 [sender.py:_save_file():944] saving file media/graph/graph_summary_f4b15071e5931f95e9bb.graph.json with policy now
+2022-02-10 08:43:10,119 DEBUG   SenderThread:27055 [sender.py:send():235] send: summary
+2022-02-10 08:43:10,125 INFO    SenderThread:27055 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 08:43:10,947 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/wandb-summary.json
+2022-02-10 08:43:10,947 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_created():217] file/dir created: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/media/graph/graph_summary_f4b15071e5931f95e9bb.graph.json
+2022-02-10 08:43:10,947 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_created():217] file/dir created: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/media
+2022-02-10 08:43:10,947 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_created():217] file/dir created: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/media/graph
+2022-02-10 08:43:11,080 INFO    Thread-12 :27055 [upload_job.py:push():137] Uploaded file /tmp/tmpoz0lmsbuwandb/2eb1gc3w-media/graph/graph_summary_f4b15071e5931f95e9bb.graph.json
+2022-02-10 08:43:12,947 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:43:13,943 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 08:43:13,943 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 08:43:14,948 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:43:16,949 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:43:18,339 DEBUG   SenderThread:27055 [sender.py:send():235] send: stats
+2022-02-10 08:43:18,949 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:43:20,950 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:43:22,951 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:43:24,951 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:43:26,952 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:43:28,953 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:43:29,214 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 08:43:29,214 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 08:43:30,289 DEBUG   SenderThread:27055 [sender.py:send():235] send: history
+2022-02-10 08:43:30,289 DEBUG   SenderThread:27055 [sender.py:send():235] send: summary
+2022-02-10 08:43:30,289 INFO    SenderThread:27055 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 08:43:30,289 DEBUG   SenderThread:27055 [sender.py:send():235] send: summary
+2022-02-10 08:43:30,290 INFO    SenderThread:27055 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 08:43:30,293 DEBUG   SenderThread:27055 [sender.py:send():235] send: summary
+2022-02-10 08:43:30,293 INFO    SenderThread:27055 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 08:43:30,954 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/wandb-summary.json
+2022-02-10 08:43:30,954 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:43:30,954 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_created():217] file/dir created: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/model-best.h5
+2022-02-10 08:43:31,954 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/model-best.h5
+2022-02-10 08:43:32,954 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:43:33,336 INFO    Thread-13 :27055 [upload_job.py:push():137] Uploaded file /tmp/tmpoz0lmsbuwandb/36k72vqw-model-best.h5
+2022-02-10 08:43:34,955 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:43:36,956 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:43:38,956 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:43:40,957 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:43:42,958 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:43:44,467 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 08:43:44,468 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 08:43:44,959 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:43:46,959 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:43:48,522 DEBUG   SenderThread:27055 [sender.py:send():235] send: stats
+2022-02-10 08:43:48,960 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:43:50,039 DEBUG   SenderThread:27055 [sender.py:send():235] send: history
+2022-02-10 08:43:50,040 DEBUG   SenderThread:27055 [sender.py:send():235] send: summary
+2022-02-10 08:43:50,040 INFO    SenderThread:27055 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 08:43:50,961 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/wandb-summary.json
+2022-02-10 08:43:50,961 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:43:52,962 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:43:54,962 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:43:56,963 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:43:58,964 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:43:59,719 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 08:43:59,719 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 08:44:00,964 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:44:02,965 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:44:04,966 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:44:06,967 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:44:08,967 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:44:08,990 DEBUG   SenderThread:27055 [sender.py:send():235] send: history
+2022-02-10 08:44:08,990 DEBUG   SenderThread:27055 [sender.py:send():235] send: summary
+2022-02-10 08:44:08,991 INFO    SenderThread:27055 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 08:44:08,994 DEBUG   SenderThread:27055 [sender.py:send():235] send: summary
+2022-02-10 08:44:08,995 INFO    SenderThread:27055 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 08:44:09,000 DEBUG   SenderThread:27055 [sender.py:send():235] send: summary
+2022-02-10 08:44:09,000 INFO    SenderThread:27055 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 08:44:09,968 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/wandb-summary.json
+2022-02-10 08:44:09,968 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/model-best.h5
+2022-02-10 08:44:10,968 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:44:12,969 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:44:14,958 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 08:44:14,958 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 08:44:14,970 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:44:16,970 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:44:18,710 DEBUG   SenderThread:27055 [sender.py:send():235] send: stats
+2022-02-10 08:44:18,971 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:44:20,972 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:44:22,973 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:44:24,974 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:44:26,974 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:44:28,975 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:44:29,010 DEBUG   SenderThread:27055 [sender.py:send():235] send: history
+2022-02-10 08:44:29,010 DEBUG   SenderThread:27055 [sender.py:send():235] send: summary
+2022-02-10 08:44:29,011 INFO    SenderThread:27055 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 08:44:29,976 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/wandb-summary.json
+2022-02-10 08:44:30,209 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 08:44:30,209 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 08:44:30,976 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:44:32,977 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:44:34,977 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:44:36,978 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:44:38,979 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:44:40,979 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:44:42,980 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:44:44,981 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:44:45,461 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 08:44:45,461 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 08:44:46,982 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:44:47,894 DEBUG   SenderThread:27055 [sender.py:send():235] send: history
+2022-02-10 08:44:47,894 DEBUG   SenderThread:27055 [sender.py:send():235] send: summary
+2022-02-10 08:44:47,895 INFO    SenderThread:27055 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 08:44:47,982 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/wandb-summary.json
+2022-02-10 08:44:48,903 DEBUG   SenderThread:27055 [sender.py:send():235] send: stats
+2022-02-10 08:44:48,982 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:44:50,983 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:44:52,984 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:44:54,985 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:44:56,986 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:44:58,986 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:45:00,710 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 08:45:00,711 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 08:45:00,987 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:45:02,988 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:45:04,988 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:45:06,780 DEBUG   SenderThread:27055 [sender.py:send():235] send: history
+2022-02-10 08:45:06,781 DEBUG   SenderThread:27055 [sender.py:send():235] send: summary
+2022-02-10 08:45:06,781 INFO    SenderThread:27055 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 08:45:06,785 DEBUG   SenderThread:27055 [sender.py:send():235] send: summary
+2022-02-10 08:45:06,785 INFO    SenderThread:27055 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 08:45:06,790 DEBUG   SenderThread:27055 [sender.py:send():235] send: summary
+2022-02-10 08:45:06,790 INFO    SenderThread:27055 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 08:45:06,989 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:45:06,990 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/model-best.h5
+2022-02-10 08:45:06,990 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/wandb-summary.json
+2022-02-10 08:45:07,990 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/model-best.h5
+2022-02-10 08:45:08,990 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:45:10,991 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:45:12,992 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:45:14,992 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:45:15,972 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 08:45:15,972 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 08:45:16,993 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:45:18,994 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:45:19,097 DEBUG   SenderThread:27055 [sender.py:send():235] send: stats
+2022-02-10 08:45:20,995 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:45:22,995 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:45:24,996 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:45:26,637 DEBUG   SenderThread:27055 [sender.py:send():235] send: history
+2022-02-10 08:45:26,638 DEBUG   SenderThread:27055 [sender.py:send():235] send: summary
+2022-02-10 08:45:26,641 INFO    SenderThread:27055 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 08:45:26,997 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/wandb-summary.json
+2022-02-10 08:45:26,998 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:45:28,998 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:45:30,999 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:45:31,234 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 08:45:31,235 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 08:45:32,999 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:45:35,000 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:45:37,001 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:45:39,002 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:45:41,003 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:45:43,003 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:45:45,004 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:45:45,476 DEBUG   SenderThread:27055 [sender.py:send():235] send: history
+2022-02-10 08:45:45,477 DEBUG   SenderThread:27055 [sender.py:send():235] send: summary
+2022-02-10 08:45:45,477 INFO    SenderThread:27055 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 08:45:45,481 DEBUG   SenderThread:27055 [sender.py:send():235] send: summary
+2022-02-10 08:45:45,481 INFO    SenderThread:27055 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 08:45:45,486 DEBUG   SenderThread:27055 [sender.py:send():235] send: summary
+2022-02-10 08:45:45,486 INFO    SenderThread:27055 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 08:45:46,005 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/wandb-summary.json
+2022-02-10 08:45:46,005 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/model-best.h5
+2022-02-10 08:45:46,500 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 08:45:46,500 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 08:45:47,005 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/model-best.h5
+2022-02-10 08:45:47,006 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:45:49,006 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:45:49,285 DEBUG   SenderThread:27055 [sender.py:send():235] send: stats
+2022-02-10 08:45:51,007 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:45:53,008 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:45:55,008 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:45:57,009 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:45:59,010 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:46:01,011 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:46:01,760 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 08:46:01,760 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 08:46:03,011 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:46:05,012 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:46:05,317 DEBUG   SenderThread:27055 [sender.py:send():235] send: history
+2022-02-10 08:46:05,318 DEBUG   SenderThread:27055 [sender.py:send():235] send: summary
+2022-02-10 08:46:05,318 INFO    SenderThread:27055 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 08:46:06,012 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/wandb-summary.json
+2022-02-10 08:46:07,013 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:46:09,013 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:46:11,014 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:46:13,015 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:46:15,016 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:46:17,011 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 08:46:17,012 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 08:46:17,016 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:46:19,017 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:46:19,474 DEBUG   SenderThread:27055 [sender.py:send():235] send: stats
+2022-02-10 08:46:21,018 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:46:23,019 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:46:24,178 DEBUG   SenderThread:27055 [sender.py:send():235] send: history
+2022-02-10 08:46:24,178 DEBUG   SenderThread:27055 [sender.py:send():235] send: summary
+2022-02-10 08:46:24,178 INFO    SenderThread:27055 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 08:46:24,182 DEBUG   SenderThread:27055 [sender.py:send():235] send: summary
+2022-02-10 08:46:24,182 INFO    SenderThread:27055 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 08:46:24,198 DEBUG   SenderThread:27055 [sender.py:send():235] send: summary
+2022-02-10 08:46:24,198 INFO    SenderThread:27055 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 08:46:25,019 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:46:25,020 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/model-best.h5
+2022-02-10 08:46:25,020 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/wandb-summary.json
+2022-02-10 08:46:26,020 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/model-best.h5
+2022-02-10 08:46:27,020 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:46:29,021 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:46:31,021 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:46:32,268 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 08:46:32,268 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 08:46:33,022 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:46:35,023 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:46:37,024 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:46:39,024 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:46:41,025 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:46:43,026 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:46:44,055 DEBUG   SenderThread:27055 [sender.py:send():235] send: history
+2022-02-10 08:46:44,055 DEBUG   SenderThread:27055 [sender.py:send():235] send: summary
+2022-02-10 08:46:44,056 INFO    SenderThread:27055 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 08:46:45,027 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/wandb-summary.json
+2022-02-10 08:46:45,027 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:46:47,027 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:46:47,608 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 08:46:47,608 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 08:46:49,028 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:46:49,658 DEBUG   SenderThread:27055 [sender.py:send():235] send: stats
+2022-02-10 08:46:51,029 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:46:53,030 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:46:55,030 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:46:57,031 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:46:59,032 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:47:01,033 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:47:02,853 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 08:47:02,853 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 08:47:03,033 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:47:03,102 DEBUG   SenderThread:27055 [sender.py:send():235] send: history
+2022-02-10 08:47:03,102 DEBUG   SenderThread:27055 [sender.py:send():235] send: summary
+2022-02-10 08:47:03,103 INFO    SenderThread:27055 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 08:47:04,034 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/wandb-summary.json
+2022-02-10 08:47:05,034 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:47:07,035 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:47:09,036 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:47:11,037 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:47:13,038 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:47:15,038 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:47:17,039 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:47:18,103 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 08:47:18,103 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 08:47:19,040 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:47:19,841 DEBUG   SenderThread:27055 [sender.py:send():235] send: stats
+2022-02-10 08:47:21,041 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:47:21,801 DEBUG   SenderThread:27055 [sender.py:send():235] send: history
+2022-02-10 08:47:21,801 DEBUG   SenderThread:27055 [sender.py:send():235] send: summary
+2022-02-10 08:47:21,802 INFO    SenderThread:27055 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 08:47:22,041 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/wandb-summary.json
+2022-02-10 08:47:23,041 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:47:25,042 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:47:27,043 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:47:29,044 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:47:31,044 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:47:33,045 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:47:33,352 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 08:47:33,353 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 08:47:35,046 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:47:37,046 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:47:39,047 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:47:40,678 DEBUG   SenderThread:27055 [sender.py:send():235] send: history
+2022-02-10 08:47:40,679 DEBUG   SenderThread:27055 [sender.py:send():235] send: summary
+2022-02-10 08:47:40,679 INFO    SenderThread:27055 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 08:47:41,048 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/wandb-summary.json
+2022-02-10 08:47:41,048 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:47:43,049 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:47:45,049 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:47:47,050 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:47:48,601 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 08:47:48,602 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 08:47:49,051 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:47:50,026 DEBUG   SenderThread:27055 [sender.py:send():235] send: stats
+2022-02-10 08:47:51,051 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:47:53,052 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:47:55,053 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:47:57,053 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:47:59,054 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:47:59,314 DEBUG   SenderThread:27055 [sender.py:send():235] send: history
+2022-02-10 08:47:59,314 DEBUG   SenderThread:27055 [sender.py:send():235] send: summary
+2022-02-10 08:47:59,315 INFO    SenderThread:27055 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 08:48:00,055 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/wandb-summary.json
+2022-02-10 08:48:01,055 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:48:03,056 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:48:03,845 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 08:48:03,846 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 08:48:05,056 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:48:07,057 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:48:09,058 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:48:11,059 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:48:13,059 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:48:15,060 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:48:17,061 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:48:18,155 DEBUG   SenderThread:27055 [sender.py:send():235] send: history
+2022-02-10 08:48:18,156 DEBUG   SenderThread:27055 [sender.py:send():235] send: summary
+2022-02-10 08:48:18,156 INFO    SenderThread:27055 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 08:48:19,062 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/wandb-summary.json
+2022-02-10 08:48:19,062 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:48:19,099 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 08:48:19,099 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 08:48:20,213 DEBUG   SenderThread:27055 [sender.py:send():235] send: stats
+2022-02-10 08:48:21,062 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:48:23,063 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:48:25,064 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:48:27,065 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:48:29,065 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:48:31,066 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:48:33,067 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:48:34,349 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 08:48:34,349 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 08:48:35,068 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:48:36,956 DEBUG   SenderThread:27055 [sender.py:send():235] send: history
+2022-02-10 08:48:36,956 DEBUG   SenderThread:27055 [sender.py:send():235] send: summary
+2022-02-10 08:48:36,957 INFO    SenderThread:27055 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 08:48:37,068 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/wandb-summary.json
+2022-02-10 08:48:37,068 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:48:39,069 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:48:41,070 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:48:43,070 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:48:45,071 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:48:47,072 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:48:49,073 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:48:49,596 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 08:48:49,597 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 08:48:50,409 DEBUG   SenderThread:27055 [sender.py:send():235] send: stats
+2022-02-10 08:48:51,073 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:48:53,074 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:48:55,075 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:48:55,768 DEBUG   SenderThread:27055 [sender.py:send():235] send: history
+2022-02-10 08:48:55,768 DEBUG   SenderThread:27055 [sender.py:send():235] send: summary
+2022-02-10 08:48:55,769 INFO    SenderThread:27055 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 08:48:56,075 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/wandb-summary.json
+2022-02-10 08:48:57,076 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:48:59,076 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:49:01,077 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:49:03,078 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:49:04,845 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 08:49:04,845 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 08:49:05,078 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:49:07,079 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:49:09,080 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:49:11,081 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:49:13,081 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:49:14,598 DEBUG   SenderThread:27055 [sender.py:send():235] send: history
+2022-02-10 08:49:14,598 DEBUG   SenderThread:27055 [sender.py:send():235] send: summary
+2022-02-10 08:49:14,599 INFO    SenderThread:27055 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 08:49:15,082 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/wandb-summary.json
+2022-02-10 08:49:15,082 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:49:17,083 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:49:19,084 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:49:20,088 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 08:49:20,089 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 08:49:20,604 DEBUG   SenderThread:27055 [sender.py:send():235] send: stats
+2022-02-10 08:49:21,084 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:49:23,085 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:49:25,086 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:49:27,086 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:49:29,087 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:49:31,088 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:49:33,089 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:49:33,414 DEBUG   SenderThread:27055 [sender.py:send():235] send: history
+2022-02-10 08:49:33,415 DEBUG   SenderThread:27055 [sender.py:send():235] send: summary
+2022-02-10 08:49:33,415 INFO    SenderThread:27055 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 08:49:34,089 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/wandb-summary.json
+2022-02-10 08:49:35,089 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:49:35,345 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 08:49:35,346 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 08:49:38,054 DEBUG   SenderThread:27055 [sender.py:send():235] send: history
+2022-02-10 08:49:38,055 DEBUG   SenderThread:27055 [sender.py:send():235] send: summary
+2022-02-10 08:49:38,055 INFO    SenderThread:27055 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 08:49:38,090 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/wandb-summary.json
+2022-02-10 08:49:38,725 DEBUG   SenderThread:27055 [sender.py:send():235] send: telemetry
+2022-02-10 08:49:38,725 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-10 08:49:38,725 DEBUG   SenderThread:27055 [sender.py:send():235] send: exit
+2022-02-10 08:49:38,726 INFO    SenderThread:27055 [sender.py:send_exit():371] handling exit code: 0
+2022-02-10 08:49:38,726 INFO    SenderThread:27055 [sender.py:send_exit():373] handling runtime: 409
+2022-02-10 08:49:38,729 INFO    SenderThread:27055 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 08:49:38,729 INFO    SenderThread:27055 [sender.py:send_exit():379] send defer
+2022-02-10 08:49:38,729 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: poll_exit
+2022-02-10 08:49:38,730 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: defer
+2022-02-10 08:49:38,730 INFO    HandlerThread:27055 [handler.py:handle_request_defer():154] handle defer: 0
+2022-02-10 08:49:38,730 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: defer
+2022-02-10 08:49:38,730 INFO    SenderThread:27055 [sender.py:send_request_defer():388] handle sender defer: 0
+2022-02-10 08:49:38,730 INFO    SenderThread:27055 [sender.py:transition_state():392] send defer: 1
+2022-02-10 08:49:38,730 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: defer
+2022-02-10 08:49:38,730 INFO    HandlerThread:27055 [handler.py:handle_request_defer():154] handle defer: 1
+2022-02-10 08:49:38,815 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: defer
+2022-02-10 08:49:38,816 INFO    SenderThread:27055 [sender.py:send_request_defer():388] handle sender defer: 1
+2022-02-10 08:49:38,816 INFO    SenderThread:27055 [sender.py:transition_state():392] send defer: 2
+2022-02-10 08:49:38,816 DEBUG   SenderThread:27055 [sender.py:send():235] send: stats
+2022-02-10 08:49:38,816 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: defer
+2022-02-10 08:49:38,816 INFO    HandlerThread:27055 [handler.py:handle_request_defer():154] handle defer: 2
+2022-02-10 08:49:38,816 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: defer
+2022-02-10 08:49:38,816 INFO    SenderThread:27055 [sender.py:send_request_defer():388] handle sender defer: 2
+2022-02-10 08:49:38,816 INFO    SenderThread:27055 [sender.py:transition_state():392] send defer: 3
+2022-02-10 08:49:38,817 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: defer
+2022-02-10 08:49:38,817 INFO    HandlerThread:27055 [handler.py:handle_request_defer():154] handle defer: 3
+2022-02-10 08:49:38,817 DEBUG   SenderThread:27055 [sender.py:send():235] send: summary
+2022-02-10 08:49:38,817 INFO    SenderThread:27055 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 08:49:38,817 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: defer
+2022-02-10 08:49:38,818 INFO    SenderThread:27055 [sender.py:send_request_defer():388] handle sender defer: 3
+2022-02-10 08:49:38,818 INFO    SenderThread:27055 [sender.py:transition_state():392] send defer: 4
+2022-02-10 08:49:38,818 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: defer
+2022-02-10 08:49:38,818 INFO    HandlerThread:27055 [handler.py:handle_request_defer():154] handle defer: 4
+2022-02-10 08:49:38,818 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: defer
+2022-02-10 08:49:38,818 INFO    SenderThread:27055 [sender.py:send_request_defer():388] handle sender defer: 4
+2022-02-10 08:49:38,834 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-10 08:49:39,091 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/wandb-summary.json
+2022-02-10 08:49:39,091 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:49:39,097 INFO    SenderThread:27055 [sender.py:transition_state():392] send defer: 5
+2022-02-10 08:49:39,097 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: poll_exit
+2022-02-10 08:49:39,097 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: defer
+2022-02-10 08:49:39,097 INFO    HandlerThread:27055 [handler.py:handle_request_defer():154] handle defer: 5
+2022-02-10 08:49:39,097 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: defer
+2022-02-10 08:49:39,097 INFO    SenderThread:27055 [sender.py:send_request_defer():388] handle sender defer: 5
+2022-02-10 08:49:39,097 INFO    SenderThread:27055 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-02-10 08:49:39,198 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-10 08:49:40,091 INFO    Thread-8  :27055 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/config.yaml
+2022-02-10 08:49:40,092 INFO    SenderThread:27055 [dir_watcher.py:finish():313] scan: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files
+2022-02-10 08:49:40,092 INFO    SenderThread:27055 [dir_watcher.py:finish():327] scan save: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/wandb-metadata.json wandb-metadata.json
+2022-02-10 08:49:40,092 INFO    SenderThread:27055 [dir_watcher.py:finish():327] scan save: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/config.yaml config.yaml
+2022-02-10 08:49:40,092 INFO    SenderThread:27055 [dir_watcher.py:finish():327] scan save: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/wandb-summary.json wandb-summary.json
+2022-02-10 08:49:40,092 INFO    SenderThread:27055 [dir_watcher.py:finish():327] scan save: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log output.log
+2022-02-10 08:49:40,092 INFO    SenderThread:27055 [dir_watcher.py:finish():327] scan save: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/model-best.h5 model-best.h5
+2022-02-10 08:49:40,097 INFO    SenderThread:27055 [dir_watcher.py:finish():327] scan save: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/requirements.txt requirements.txt
+2022-02-10 08:49:40,105 INFO    SenderThread:27055 [dir_watcher.py:finish():327] scan save: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/conda-environment.yaml conda-environment.yaml
+2022-02-10 08:49:40,105 INFO    SenderThread:27055 [dir_watcher.py:finish():327] scan save: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/media/graph/graph_summary_f4b15071e5931f95e9bb.graph.json media/graph/graph_summary_f4b15071e5931f95e9bb.graph.json
+2022-02-10 08:49:40,105 INFO    SenderThread:27055 [sender.py:transition_state():392] send defer: 6
+2022-02-10 08:49:40,105 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: poll_exit
+2022-02-10 08:49:40,106 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: defer
+2022-02-10 08:49:40,106 INFO    HandlerThread:27055 [handler.py:handle_request_defer():154] handle defer: 6
+2022-02-10 08:49:40,106 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: defer
+2022-02-10 08:49:40,106 INFO    SenderThread:27055 [sender.py:send_request_defer():388] handle sender defer: 6
+2022-02-10 08:49:40,106 INFO    SenderThread:27055 [file_pusher.py:finish():177] shutting down file pusher
+2022-02-10 08:49:40,208 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-10 08:49:40,208 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: poll_exit
+2022-02-10 08:49:40,310 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-10 08:49:40,310 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: poll_exit
+2022-02-10 08:49:40,411 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-10 08:49:40,411 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: poll_exit
+2022-02-10 08:49:40,512 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-10 08:49:40,512 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: poll_exit
+2022-02-10 08:49:40,614 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-10 08:49:40,614 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: poll_exit
+2022-02-10 08:49:40,716 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-10 08:49:40,716 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: poll_exit
+2022-02-10 08:49:40,750 INFO    Thread-16 :27055 [upload_job.py:push():137] Uploaded file /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/output.log
+2022-02-10 08:49:40,774 INFO    Thread-15 :27055 [upload_job.py:push():137] Uploaded file /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/wandb-summary.json
+2022-02-10 08:49:40,776 INFO    Thread-14 :27055 [upload_job.py:push():137] Uploaded file /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/config.yaml
+2022-02-10 08:49:40,818 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-10 08:49:40,818 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: poll_exit
+2022-02-10 08:49:40,864 INFO    Thread-18 :27055 [upload_job.py:push():137] Uploaded file /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/files/requirements.txt
+2022-02-10 08:49:40,920 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-10 08:49:40,920 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: poll_exit
+2022-02-10 08:49:41,022 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-10 08:49:41,023 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: poll_exit
+2022-02-10 08:49:41,124 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-10 08:49:41,125 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: poll_exit
+2022-02-10 08:49:41,227 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-10 08:49:41,227 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: poll_exit
+2022-02-10 08:49:41,329 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-10 08:49:41,329 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: poll_exit
+2022-02-10 08:49:41,431 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-10 08:49:41,431 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: poll_exit
+2022-02-10 08:49:41,533 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-10 08:49:41,533 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: poll_exit
+2022-02-10 08:49:41,635 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-10 08:49:41,635 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: poll_exit
+2022-02-10 08:49:41,737 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-10 08:49:41,738 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: poll_exit
+2022-02-10 08:49:41,839 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-10 08:49:41,840 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: poll_exit
+2022-02-10 08:49:41,942 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-10 08:49:41,942 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: poll_exit
+2022-02-10 08:49:42,044 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-10 08:49:42,044 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: poll_exit
+2022-02-10 08:49:42,146 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-10 08:49:42,147 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: poll_exit
+2022-02-10 08:49:42,249 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-10 08:49:42,249 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: poll_exit
+2022-02-10 08:49:42,351 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-10 08:49:42,351 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: poll_exit
+2022-02-10 08:49:42,453 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-10 08:49:42,454 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: poll_exit
+2022-02-10 08:49:42,555 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-10 08:49:42,555 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: poll_exit
+2022-02-10 08:49:42,656 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-10 08:49:42,656 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: poll_exit
+2022-02-10 08:49:42,757 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-10 08:49:42,758 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: poll_exit
+2022-02-10 08:49:42,859 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-10 08:49:42,859 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: poll_exit
+2022-02-10 08:49:42,960 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-10 08:49:42,960 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: poll_exit
+2022-02-10 08:49:43,061 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-10 08:49:43,061 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: poll_exit
+2022-02-10 08:49:43,162 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-10 08:49:43,162 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: poll_exit
+2022-02-10 08:49:43,263 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-10 08:49:43,263 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: poll_exit
+2022-02-10 08:49:43,364 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-10 08:49:43,365 INFO    Thread-17 :27055 [upload_job.py:push():137] Uploaded file /tmp/tmpoz0lmsbuwandb/3ny4iqf6-model-best.h5
+2022-02-10 08:49:43,365 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: poll_exit
+2022-02-10 08:49:43,466 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-10 08:49:43,467 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: poll_exit
+2022-02-10 08:49:43,567 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-10 08:49:43,568 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: poll_exit
+2022-02-10 08:49:43,576 INFO    Thread-7  :27055 [sender.py:transition_state():392] send defer: 7
+2022-02-10 08:49:43,576 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: defer
+2022-02-10 08:49:43,576 INFO    HandlerThread:27055 [handler.py:handle_request_defer():154] handle defer: 7
+2022-02-10 08:49:43,577 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: defer
+2022-02-10 08:49:43,577 INFO    SenderThread:27055 [sender.py:send_request_defer():388] handle sender defer: 7
+2022-02-10 08:49:43,668 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-10 08:49:44,353 INFO    SenderThread:27055 [sender.py:transition_state():392] send defer: 8
+2022-02-10 08:49:44,353 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: poll_exit
+2022-02-10 08:49:44,353 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: defer
+2022-02-10 08:49:44,354 INFO    HandlerThread:27055 [handler.py:handle_request_defer():154] handle defer: 8
+2022-02-10 08:49:44,354 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: defer
+2022-02-10 08:49:44,354 INFO    SenderThread:27055 [sender.py:send_request_defer():388] handle sender defer: 8
+2022-02-10 08:49:44,354 INFO    SenderThread:27055 [sender.py:transition_state():392] send defer: 9
+2022-02-10 08:49:44,354 DEBUG   SenderThread:27055 [sender.py:send():235] send: final
+2022-02-10 08:49:44,354 DEBUG   SenderThread:27055 [sender.py:send():235] send: footer
+2022-02-10 08:49:44,354 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: defer
+2022-02-10 08:49:44,355 INFO    HandlerThread:27055 [handler.py:handle_request_defer():154] handle defer: 9
+2022-02-10 08:49:44,355 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: defer
+2022-02-10 08:49:44,355 INFO    SenderThread:27055 [sender.py:send_request_defer():388] handle sender defer: 9
+2022-02-10 08:49:44,454 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-10 08:49:44,454 DEBUG   SenderThread:27055 [sender.py:send_request():249] send_request: poll_exit
+2022-02-10 08:49:44,454 INFO    SenderThread:27055 [file_pusher.py:join():182] waiting for file pusher
+2022-02-10 08:49:44,942 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: get_summary
+2022-02-10 08:49:44,943 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: sampled_history
+2022-02-10 08:49:44,944 DEBUG   HandlerThread:27055 [handler.py:handle_request():131] handle_request: shutdown
+2022-02-10 08:49:44,944 INFO    HandlerThread:27055 [handler.py:finish():739] shutting down handler
+2022-02-10 08:49:45,355 INFO    WriterThread:27055 [datastore.py:close():281] close: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_084247-2u1i4w6y/run-2u1i4w6y.wandb
+2022-02-10 08:49:45,941 INFO    SenderThread:27055 [sender.py:finish():1075] shutting down sender
+2022-02-10 08:49:45,941 INFO    SenderThread:27055 [file_pusher.py:finish():177] shutting down file pusher
+2022-02-10 08:49:45,941 INFO    SenderThread:27055 [file_pusher.py:join():182] waiting for file pusher
+2022-02-10 08:49:45,943 INFO    MainThread:27055 [internal.py:handle_exit():79] Internal process exited

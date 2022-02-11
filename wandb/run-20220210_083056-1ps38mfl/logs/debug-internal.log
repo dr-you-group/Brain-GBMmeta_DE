@@ -1,0 +1,153 @@
+2022-02-10 08:30:57,461 INFO    MainThread:26663 [internal.py:wandb_internal():92] W&B internal server running at pid: 26663, started at: 2022-02-10 08:30:57.461339
+2022-02-10 08:30:57,463 DEBUG   HandlerThread:26663 [handler.py:handle_request():131] handle_request: check_version
+2022-02-10 08:30:57,463 INFO    WriterThread:26663 [datastore.py:open_for_write():77] open: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_083056-1ps38mfl/run-1ps38mfl.wandb
+2022-02-10 08:30:57,465 DEBUG   SenderThread:26663 [sender.py:send():235] send: header
+2022-02-10 08:30:57,465 DEBUG   SenderThread:26663 [sender.py:send_request():249] send_request: check_version
+2022-02-10 08:30:57,604 DEBUG   SenderThread:26663 [sender.py:send():235] send: run
+2022-02-10 08:30:57,975 INFO    SenderThread:26663 [dir_watcher.py:__init__():169] watching files in: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_083056-1ps38mfl/files
+2022-02-10 08:30:57,975 INFO    SenderThread:26663 [sender.py:_start_run_threads():812] run started: 1ps38mfl with start time 1644481856
+2022-02-10 08:30:57,975 DEBUG   SenderThread:26663 [sender.py:send():235] send: summary
+2022-02-10 08:30:57,975 INFO    SenderThread:26663 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 08:30:57,975 DEBUG   HandlerThread:26663 [handler.py:handle_request():131] handle_request: run_start
+2022-02-10 08:30:58,991 INFO    Thread-8  :26663 [dir_watcher.py:_on_file_created():217] file/dir created: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_083056-1ps38mfl/files/wandb-summary.json
+2022-02-10 08:30:59,486 DEBUG   HandlerThread:26663 [meta.py:__init__():36] meta init
+2022-02-10 08:30:59,486 DEBUG   HandlerThread:26663 [meta.py:__init__():50] meta init done
+2022-02-10 08:30:59,486 DEBUG   HandlerThread:26663 [meta.py:probe():210] probe
+2022-02-10 08:30:59,492 DEBUG   HandlerThread:26663 [meta.py:_setup_git():200] setup git
+2022-02-10 08:30:59,501 DEBUG   HandlerThread:26663 [meta.py:_setup_git():207] setup git done
+2022-02-10 08:30:59,502 DEBUG   HandlerThread:26663 [meta.py:_save_pip():54] save pip
+2022-02-10 08:30:59,502 DEBUG   HandlerThread:26663 [meta.py:_save_pip():68] save pip done
+2022-02-10 08:30:59,502 DEBUG   HandlerThread:26663 [meta.py:_save_conda():75] save conda
+2022-02-10 08:30:59,991 INFO    Thread-8  :26663 [dir_watcher.py:_on_file_created():217] file/dir created: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_083056-1ps38mfl/files/requirements.txt
+2022-02-10 08:30:59,991 INFO    Thread-8  :26663 [dir_watcher.py:_on_file_created():217] file/dir created: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_083056-1ps38mfl/files/conda-environment.yaml
+2022-02-10 08:31:02,991 INFO    Thread-8  :26663 [dir_watcher.py:_on_file_created():217] file/dir created: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_083056-1ps38mfl/files/output.log
+2022-02-10 08:31:07,992 INFO    Thread-8  :26663 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_083056-1ps38mfl/files/output.log
+2022-02-10 08:31:10,936 DEBUG   HandlerThread:26663 [meta.py:_save_conda():85] save conda done
+2022-02-10 08:31:10,936 DEBUG   HandlerThread:26663 [meta.py:probe():248] probe done
+2022-02-10 08:31:10,942 DEBUG   HandlerThread:26663 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 08:31:10,942 DEBUG   SenderThread:26663 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 08:31:10,943 DEBUG   HandlerThread:26663 [handler.py:handle_request():131] handle_request: pause
+2022-02-10 08:31:10,947 INFO    HandlerThread:26663 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-10 08:31:10,993 INFO    Thread-8  :26663 [dir_watcher.py:_on_file_created():217] file/dir created: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_083056-1ps38mfl/files/wandb-metadata.json
+2022-02-10 08:31:11,186 DEBUG   SenderThread:26663 [sender.py:send():235] send: files
+2022-02-10 08:31:11,188 INFO    SenderThread:26663 [sender.py:_save_file():944] saving file wandb-metadata.json with policy now
+2022-02-10 08:31:11,189 DEBUG   SenderThread:26663 [sender.py:send():235] send: stats
+2022-02-10 08:31:11,859 INFO    Thread-11 :26663 [upload_job.py:push():137] Uploaded file /tmp/tmp0cukq3brwandb/kttbmnly-wandb-metadata.json
+2022-02-10 08:31:22,981 DEBUG   HandlerThread:26663 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 08:31:22,981 DEBUG   SenderThread:26663 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 08:31:38,224 DEBUG   HandlerThread:26663 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-10 08:31:38,225 DEBUG   SenderThread:26663 [sender.py:send_request():249] send_request: stop_status
+2022-02-10 08:31:52,798 DEBUG   HandlerThread:26663 [handler.py:handle_request():131] handle_request: resume
+2022-02-10 08:31:52,798 INFO    HandlerThread:26663 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-10 08:31:53,238 DEBUG   SenderThread:26663 [sender.py:send():235] send: telemetry
+2022-02-10 08:31:53,238 DEBUG   HandlerThread:26663 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-10 08:31:53,238 DEBUG   SenderThread:26663 [sender.py:send():235] send: exit
+2022-02-10 08:31:53,238 INFO    SenderThread:26663 [sender.py:send_exit():371] handling exit code: 0
+2022-02-10 08:31:53,239 INFO    SenderThread:26663 [sender.py:send_exit():373] handling runtime: 13
+2022-02-10 08:31:53,241 INFO    SenderThread:26663 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 08:31:53,242 INFO    SenderThread:26663 [sender.py:send_exit():379] send defer
+2022-02-10 08:31:53,242 DEBUG   SenderThread:26663 [sender.py:send_request():249] send_request: poll_exit
+2022-02-10 08:31:53,242 DEBUG   HandlerThread:26663 [handler.py:handle_request():131] handle_request: defer
+2022-02-10 08:31:53,242 INFO    HandlerThread:26663 [handler.py:handle_request_defer():154] handle defer: 0
+2022-02-10 08:31:53,242 DEBUG   SenderThread:26663 [sender.py:send_request():249] send_request: defer
+2022-02-10 08:31:53,242 INFO    SenderThread:26663 [sender.py:send_request_defer():388] handle sender defer: 0
+2022-02-10 08:31:53,242 INFO    SenderThread:26663 [sender.py:transition_state():392] send defer: 1
+2022-02-10 08:31:53,243 DEBUG   HandlerThread:26663 [handler.py:handle_request():131] handle_request: defer
+2022-02-10 08:31:53,243 INFO    HandlerThread:26663 [handler.py:handle_request_defer():154] handle defer: 1
+2022-02-10 08:31:53,315 DEBUG   SenderThread:26663 [sender.py:send_request():249] send_request: defer
+2022-02-10 08:31:53,316 INFO    SenderThread:26663 [sender.py:send_request_defer():388] handle sender defer: 1
+2022-02-10 08:31:53,316 INFO    SenderThread:26663 [sender.py:transition_state():392] send defer: 2
+2022-02-10 08:31:53,316 DEBUG   SenderThread:26663 [sender.py:send():235] send: stats
+2022-02-10 08:31:53,316 DEBUG   HandlerThread:26663 [handler.py:handle_request():131] handle_request: defer
+2022-02-10 08:31:53,316 INFO    HandlerThread:26663 [handler.py:handle_request_defer():154] handle defer: 2
+2022-02-10 08:31:53,316 DEBUG   SenderThread:26663 [sender.py:send_request():249] send_request: defer
+2022-02-10 08:31:53,316 INFO    SenderThread:26663 [sender.py:send_request_defer():388] handle sender defer: 2
+2022-02-10 08:31:53,316 INFO    SenderThread:26663 [sender.py:transition_state():392] send defer: 3
+2022-02-10 08:31:53,317 DEBUG   HandlerThread:26663 [handler.py:handle_request():131] handle_request: defer
+2022-02-10 08:31:53,317 INFO    HandlerThread:26663 [handler.py:handle_request_defer():154] handle defer: 3
+2022-02-10 08:31:53,317 DEBUG   SenderThread:26663 [sender.py:send():235] send: summary
+2022-02-10 08:31:53,317 INFO    SenderThread:26663 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-10 08:31:53,317 DEBUG   SenderThread:26663 [sender.py:send_request():249] send_request: defer
+2022-02-10 08:31:53,317 INFO    SenderThread:26663 [sender.py:send_request_defer():388] handle sender defer: 3
+2022-02-10 08:31:53,317 INFO    SenderThread:26663 [sender.py:transition_state():392] send defer: 4
+2022-02-10 08:31:53,317 DEBUG   HandlerThread:26663 [handler.py:handle_request():131] handle_request: defer
+2022-02-10 08:31:53,317 INFO    HandlerThread:26663 [handler.py:handle_request_defer():154] handle defer: 4
+2022-02-10 08:31:53,317 DEBUG   SenderThread:26663 [sender.py:send_request():249] send_request: defer
+2022-02-10 08:31:53,317 INFO    SenderThread:26663 [sender.py:send_request_defer():388] handle sender defer: 4
+2022-02-10 08:31:53,346 DEBUG   HandlerThread:26663 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-10 08:31:53,586 INFO    SenderThread:26663 [sender.py:transition_state():392] send defer: 5
+2022-02-10 08:31:53,586 DEBUG   SenderThread:26663 [sender.py:send_request():249] send_request: poll_exit
+2022-02-10 08:31:53,586 DEBUG   HandlerThread:26663 [handler.py:handle_request():131] handle_request: defer
+2022-02-10 08:31:53,586 INFO    HandlerThread:26663 [handler.py:handle_request_defer():154] handle defer: 5
+2022-02-10 08:31:53,587 DEBUG   SenderThread:26663 [sender.py:send_request():249] send_request: defer
+2022-02-10 08:31:53,587 INFO    SenderThread:26663 [sender.py:send_request_defer():388] handle sender defer: 5
+2022-02-10 08:31:53,587 INFO    SenderThread:26663 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-02-10 08:31:53,687 DEBUG   HandlerThread:26663 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-10 08:31:54,003 INFO    Thread-8  :26663 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_083056-1ps38mfl/files/wandb-summary.json
+2022-02-10 08:31:54,003 INFO    SenderThread:26663 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_083056-1ps38mfl/files/output.log
+2022-02-10 08:31:54,003 INFO    SenderThread:26663 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_083056-1ps38mfl/files/config.yaml
+2022-02-10 08:31:54,003 INFO    SenderThread:26663 [dir_watcher.py:finish():313] scan: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_083056-1ps38mfl/files
+2022-02-10 08:31:54,004 INFO    SenderThread:26663 [dir_watcher.py:finish():327] scan save: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_083056-1ps38mfl/files/wandb-metadata.json wandb-metadata.json
+2022-02-10 08:31:54,004 INFO    SenderThread:26663 [dir_watcher.py:finish():327] scan save: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_083056-1ps38mfl/files/config.yaml config.yaml
+2022-02-10 08:31:54,004 INFO    SenderThread:26663 [dir_watcher.py:finish():327] scan save: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_083056-1ps38mfl/files/wandb-summary.json wandb-summary.json
+2022-02-10 08:31:54,004 INFO    SenderThread:26663 [dir_watcher.py:finish():327] scan save: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_083056-1ps38mfl/files/output.log output.log
+2022-02-10 08:31:54,004 INFO    SenderThread:26663 [dir_watcher.py:finish():327] scan save: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_083056-1ps38mfl/files/requirements.txt requirements.txt
+2022-02-10 08:31:54,012 INFO    SenderThread:26663 [dir_watcher.py:finish():327] scan save: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_083056-1ps38mfl/files/conda-environment.yaml conda-environment.yaml
+2022-02-10 08:31:54,012 INFO    SenderThread:26663 [sender.py:transition_state():392] send defer: 6
+2022-02-10 08:31:54,012 DEBUG   SenderThread:26663 [sender.py:send_request():249] send_request: poll_exit
+2022-02-10 08:31:54,013 DEBUG   HandlerThread:26663 [handler.py:handle_request():131] handle_request: defer
+2022-02-10 08:31:54,013 INFO    HandlerThread:26663 [handler.py:handle_request_defer():154] handle defer: 6
+2022-02-10 08:31:54,017 DEBUG   SenderThread:26663 [sender.py:send_request():249] send_request: defer
+2022-02-10 08:31:54,017 INFO    SenderThread:26663 [sender.py:send_request_defer():388] handle sender defer: 6
+2022-02-10 08:31:54,017 INFO    SenderThread:26663 [file_pusher.py:finish():177] shutting down file pusher
+2022-02-10 08:31:54,115 DEBUG   HandlerThread:26663 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-10 08:31:54,115 DEBUG   SenderThread:26663 [sender.py:send_request():249] send_request: poll_exit
+2022-02-10 08:31:54,216 DEBUG   HandlerThread:26663 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-10 08:31:54,216 DEBUG   SenderThread:26663 [sender.py:send_request():249] send_request: poll_exit
+2022-02-10 08:31:54,317 DEBUG   HandlerThread:26663 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-10 08:31:54,317 DEBUG   SenderThread:26663 [sender.py:send_request():249] send_request: poll_exit
+2022-02-10 08:31:54,418 DEBUG   HandlerThread:26663 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-10 08:31:54,418 DEBUG   SenderThread:26663 [sender.py:send_request():249] send_request: poll_exit
+2022-02-10 08:31:54,520 DEBUG   HandlerThread:26663 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-10 08:31:54,520 DEBUG   SenderThread:26663 [sender.py:send_request():249] send_request: poll_exit
+2022-02-10 08:31:54,621 DEBUG   HandlerThread:26663 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-10 08:31:54,622 DEBUG   SenderThread:26663 [sender.py:send_request():249] send_request: poll_exit
+2022-02-10 08:31:54,658 INFO    Thread-13 :26663 [upload_job.py:push():137] Uploaded file /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_083056-1ps38mfl/files/config.yaml
+2022-02-10 08:31:54,684 INFO    Thread-14 :26663 [upload_job.py:push():137] Uploaded file /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_083056-1ps38mfl/files/wandb-summary.json
+2022-02-10 08:31:54,704 INFO    Thread-16 :26663 [upload_job.py:push():137] Uploaded file /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_083056-1ps38mfl/files/requirements.txt
+2022-02-10 08:31:54,721 INFO    Thread-15 :26663 [upload_job.py:push():137] Uploaded file /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_083056-1ps38mfl/files/output.log
+2022-02-10 08:31:54,722 DEBUG   HandlerThread:26663 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-10 08:31:54,723 DEBUG   SenderThread:26663 [sender.py:send_request():249] send_request: poll_exit
+2022-02-10 08:31:54,823 DEBUG   HandlerThread:26663 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-10 08:31:54,824 DEBUG   SenderThread:26663 [sender.py:send_request():249] send_request: poll_exit
+2022-02-10 08:31:54,921 INFO    Thread-7  :26663 [sender.py:transition_state():392] send defer: 7
+2022-02-10 08:31:54,921 DEBUG   HandlerThread:26663 [handler.py:handle_request():131] handle_request: defer
+2022-02-10 08:31:54,921 INFO    HandlerThread:26663 [handler.py:handle_request_defer():154] handle defer: 7
+2022-02-10 08:31:54,922 DEBUG   SenderThread:26663 [sender.py:send_request():249] send_request: defer
+2022-02-10 08:31:54,922 INFO    SenderThread:26663 [sender.py:send_request_defer():388] handle sender defer: 7
+2022-02-10 08:31:54,924 DEBUG   HandlerThread:26663 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-10 08:31:55,555 INFO    SenderThread:26663 [sender.py:transition_state():392] send defer: 8
+2022-02-10 08:31:55,555 DEBUG   SenderThread:26663 [sender.py:send_request():249] send_request: poll_exit
+2022-02-10 08:31:55,555 DEBUG   HandlerThread:26663 [handler.py:handle_request():131] handle_request: defer
+2022-02-10 08:31:55,556 INFO    HandlerThread:26663 [handler.py:handle_request_defer():154] handle defer: 8
+2022-02-10 08:31:55,556 DEBUG   SenderThread:26663 [sender.py:send_request():249] send_request: defer
+2022-02-10 08:31:55,556 INFO    SenderThread:26663 [sender.py:send_request_defer():388] handle sender defer: 8
+2022-02-10 08:31:55,556 INFO    SenderThread:26663 [sender.py:transition_state():392] send defer: 9
+2022-02-10 08:31:55,556 DEBUG   SenderThread:26663 [sender.py:send():235] send: final
+2022-02-10 08:31:55,556 DEBUG   HandlerThread:26663 [handler.py:handle_request():131] handle_request: defer
+2022-02-10 08:31:55,556 DEBUG   SenderThread:26663 [sender.py:send():235] send: footer
+2022-02-10 08:31:55,556 INFO    HandlerThread:26663 [handler.py:handle_request_defer():154] handle defer: 9
+2022-02-10 08:31:55,557 DEBUG   SenderThread:26663 [sender.py:send_request():249] send_request: defer
+2022-02-10 08:31:55,557 INFO    SenderThread:26663 [sender.py:send_request_defer():388] handle sender defer: 9
+2022-02-10 08:31:55,656 DEBUG   HandlerThread:26663 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-10 08:31:55,657 DEBUG   SenderThread:26663 [sender.py:send_request():249] send_request: poll_exit
+2022-02-10 08:31:55,657 INFO    SenderThread:26663 [file_pusher.py:join():182] waiting for file pusher
+2022-02-10 08:31:56,165 DEBUG   HandlerThread:26663 [handler.py:handle_request():131] handle_request: get_summary
+2022-02-10 08:31:56,166 DEBUG   HandlerThread:26663 [handler.py:handle_request():131] handle_request: sampled_history
+2022-02-10 08:31:56,166 DEBUG   HandlerThread:26663 [handler.py:handle_request():131] handle_request: shutdown
+2022-02-10 08:31:56,166 INFO    HandlerThread:26663 [handler.py:finish():739] shutting down handler
+2022-02-10 08:31:56,557 INFO    WriterThread:26663 [datastore.py:close():281] close: /home/ubuntu/SJEOM/Brain-GBMmeta/GitHub/wandb/run-20220210_083056-1ps38mfl/run-1ps38mfl.wandb
+2022-02-10 08:31:57,164 INFO    SenderThread:26663 [sender.py:finish():1075] shutting down sender
+2022-02-10 08:31:57,164 INFO    SenderThread:26663 [file_pusher.py:finish():177] shutting down file pusher
+2022-02-10 08:31:57,165 INFO    SenderThread:26663 [file_pusher.py:join():182] waiting for file pusher
+2022-02-10 08:31:57,166 INFO    MainThread:26663 [internal.py:handle_exit():79] Internal process exited
