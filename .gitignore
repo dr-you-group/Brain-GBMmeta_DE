@@ -1,0 +1,12 @@
+.ipynb_checkpoints/
+wandb/
+DataProcessed/
+BestModelSaved/
+Results/
+
+*.pickle
+*.csv
+*.ipynb
+
+!Brain-GBMmeta_DataPreprocessing_sjeom-Copy1.ipynb
+!Brain-GBMmeta_ModelingTesting_sjeom-2-twoT2-Copy1.ipynb
