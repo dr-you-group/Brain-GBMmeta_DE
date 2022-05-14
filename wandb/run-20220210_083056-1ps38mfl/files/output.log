@@ -1,2 +1,0 @@
-[2022-02-10 08:31:03.240 ip-10-0-1-67:3890 INFO utils.py:27] RULE_JOB_STOP_SIGNAL_FILENAME: None
-[2022-02-10 08:31:03.311 ip-10-0-1-67:3890 INFO profiler_config_parser.py:111] Unable to find config at /opt/ml/input/config/profilerconfig.json. Profiler is disabled.
